@@ -1,0 +1,114 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #333;
+	background-color: #f9f9f9;
+}
+
+header {
+	background-color: #fff;
+	padding: 1rem;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.header-top {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo img {
+	width: 50px;
+	height: 50px;
+	margin-right: 1rem;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+}
+
+nav li {
+	margin-right: 1rem;
+}
+
+nav li a {
+	color: #333;
+	text-decoration: none;
+}
+
+nav li.active a {
+	color: #007bff;
+	font-weight: bold;
+}
+
+.header-content {
+	text-align: center;
+	padding: 2rem;
+	background-color: #007bff;
+	color: #fff;
+}
+
+.main {
+	padding: 2rem;
+}
+
+.contact {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 2rem;
+	background-color: #fff;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.contact h2 {
+	margin-bottom: 1rem;
+}
+
+.form-group {
+	margin-bottom: 1rem;
+}
+
+.form-group label {
+	display: block;
+	margin-bottom: 0.5rem;
+}
+
+.form-group input, .form-group textarea {
+	width: 100%;
+	padding: 0.5rem;
+	border: 2px solid #ccc;
+	border-radius: 5px;
+	font-size: 1rem;
+}
+
+.form-group input:focus, .form-group textarea:focus {
+	border-color: #007bff;
+}
+
+.form-group textarea {
+	height: 10rem;
+}
+
+.cta-button {
+	display: block;
+	margin-top: 1rem;
+	padding: 0.5rem 1rem;
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	font-size: 1rem;
+	cursor: pointer;
+}
+
+.cta-button:hover {
+	background-color: #0069d9;
+}
